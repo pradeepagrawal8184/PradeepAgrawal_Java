@@ -1,0 +1,41 @@
+package com.bank.abc;
+
+public class Position {
+	String instrument;
+	int account;
+	String accountType;
+	long quantity;
+	public Position(String instrument1,int account1,String accountType1,long quantity1) {
+		this.instrument = instrument1;
+		this.account = account1;
+		this.accountType = accountType1;
+		this.quantity = quantity1;
+	}
+	public String getInstrument() {
+		return instrument;
+	}
+	public void setInstrument(String instrument) {
+		this.instrument = instrument;
+	}
+	public int getAccount() {
+		return account;
+	}
+	public void setAccount(int account) {
+		this.account = account;
+	}
+	public String getAccountType() {
+		return accountType;
+	}
+	public void setAccountType(String accountType) {
+		this.accountType = accountType;
+	}
+	public long getQuantity() {
+		return quantity;
+	}
+	public void setQuantity(long quantity) {
+		this.quantity = quantity;
+	}
+
+	
+	
+}
